@@ -21,7 +21,7 @@ def get_api_response(prompt: str) -> str | None:
         choices: dict = response.get('choices')[0]
         text = choices.get
     
-    except Exception as e:
+    except Exception as e:  sdfdsfds
         print('ERROR', e)
    
     return text
